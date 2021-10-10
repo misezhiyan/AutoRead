@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>汉字匹配读音</title>
+    <style>
+        .unmatched {
+            background-color: yellow;
+            color: red;
+        }
+
+        .matched {
+            background-color: aquamarine;
+            color: black;
+        }
+
+        .field {
+            width: 100px;
+            height: 80px;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+<div style="width: 100%">
+    <span class="field matched">
+        <label>大</label>
+    </span>
+    <span class="field unmatched">
+        <label>大1</label>
+    </span>
+    <span class="field matched">
+        <label>大2</label>
+    </span>
+    <span class="field matched">
+        <label>大2</label>
+    </span>
+</div>
+
+</body>
+</html>
