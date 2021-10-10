@@ -6,9 +6,10 @@
     <artifactId>AutoRead</artifactId>
     <packaging>pom</packaging>
     <version>0.01tmp</version>
+
     <modules>
         <module>commons</module>
-        <module>Web</module>
+        <module>web</module>
     </modules>
 
     <parent>
